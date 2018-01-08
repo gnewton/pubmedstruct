@@ -369,7 +369,6 @@ type MeshHeadingList struct {
 type MeshHeading struct {
 	DescriptorName *DescriptorName  `xml:" DescriptorName,omitempty" json:"DescriptorName,omitempty"`
 	QualifierName  []*QualifierName `xml:" QualifierName,omitempty" json:"QualifierName,omitempty"`
-	UI             string           `xml:"UI,attr" json:"UI,omitempty"`
 }
 
 type DescriptorName struct {
